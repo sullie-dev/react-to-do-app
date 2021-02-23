@@ -36,3 +36,20 @@
     transform: rotate(360deg);
   }
 }
+
+button {
+  background-color: rgb(56, 56, 143);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  font-size: 1.25rem;
+}
+
+button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
